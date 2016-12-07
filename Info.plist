@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>gaocegege</string>
+	<key>Builder Version</key>
+	<string>12602.2.14.0.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>electsys</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.electsys</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popup/popup.html</string>
+				<key>Identifier</key>
+				<string>help</string>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>homepage</string>
+				<key>Image</key>
+				<string>logo_new_128.png</string>
+				<key>Label</key>
+				<string>homepage</string>
+				<key>Popover</key>
+				<string>help</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>content_script/library/jquery-3.1.1.min.js</string>
+				<string>content_script/library/jquery-ui-1.12.0.min.js</string>
+				<string>content_script/data/lesson_data.js</string>
+				<string>content_script/data/score_map.js</string>
+				<string>content_script/core/option.js</string>
+				<string>content_script/page/lesson.js</string>
+				<string>content_script/page/nhce.js</string>
+				<string>content_script/page/eval.js</string>
+				<string>content_script/page/score.js</string>
+				<string>content_script/page/gpa.js</string>
+				<string>content_script/page/login.js</string>
+				<string>content_script/page/eduction_list.js</string>
+				<string>content_script/page/core_course.js</string>
+				<string>content_script/page/index.js</string>
+				<string>content_script/page/frame.js</string>
+				<string>content_script/core/load.js</string>
+			</array>
+		</dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>content_script/library/jquery-ui-1.12.0.structure.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>http://*/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>移植</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>Extension Updates</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.yourCompany.safari.electsys</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0</string>
+			<key>CFBundleVersion</key>
+			<string>1</string>
+			<key>Developer Identifier</key>
+			<string>52M7HZNUB3</string>
+			<key>URL</key>
+			<string>http://gaocegege.com/electsys-safari/electsys.safariextz</string>
+		</dict>
+	</array>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Global Page</key>
+	<string>global.html</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/gaocegege/electsys-safari</string>
+</dict>
+</plist>
